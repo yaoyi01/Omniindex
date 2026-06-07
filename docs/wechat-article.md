@@ -87,7 +87,7 @@ DeepSeek LLM 自动理解意图，扩展关键词：
 ### 1. 启动后端（一行命令）
 
 ```bash
-git clone https://github.com/yourname/Omniindex
+git clone https://github.com/yaoyi01/Omniindex
 cd Omniindex
 cp server/.env.example server/.env
 # 编辑 .env 填入 API Key
@@ -148,7 +148,7 @@ dotnet publish -c Release -o dist
 
 ## 📎 链接
 
-- GitHub：`https://github.com/yourname/Omniindex`（MIT 协议）
+- GitHub：`https://github.com/yaoyi01/Omniindex`（MIT 协议）
 - 技术文档：见项目 README.md
 
 ---
