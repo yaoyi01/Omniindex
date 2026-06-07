@@ -1,0 +1,46 @@
+# API Keys
+server/.env
+*.env
+!server/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+*.egg
+
+# Node
+web/node_modules/
+web/dist/
+web/.vite/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+agent/bin/
+agent/obj/
+agent/dist/
+agent/.vs/
+
+# Database files (too large, git won't handle well)
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+logs/
+*.log
+
+# Temp
+*.tmp
+tmp/
