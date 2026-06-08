@@ -196,9 +196,8 @@ Agent 使用 `Costura.Fody` 将所有依赖打包为单文件 exe，目标机只
 
 - **Windows Search 依赖**：Agent 仅支持 Windows，依赖系统 Search 索引服务正常运行
 - **文件内容索引受限**：部分文件类型（图片、加密文档）的文本摘要可能为空
-- **大事务删除慢**：SQLite 模式下删除大量文件需分批执行
 - **无权限控制**：当前 MVP 无用户认证，适合内网或单用户场景
-- **向量模型依赖云 API**：无网络时回退为纯关键字搜索
+
 
 ## 📋 Roadmap
 
@@ -207,7 +206,7 @@ Agent 使用 `Costura.Fody` 将所有依赖打包为单文件 exe，目标机只
 - [ ] Windows Service 封装（开机自启）
 - [ ] 增量采集（基于 LastModifiedTime）
 - [ ] 文件内容全文索引（非仅元数据）
-- [ ] 多用户/多租户支持
+- [ ] MAC、信创终端索引采集
 
 ## 📄 License
 
